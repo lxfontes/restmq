@@ -3,7 +3,20 @@ See [tunacorp's restmq](https://github.com/gleicon/restmq) page.
 
 This is an drop-in replacement for the current cyclone implementation.
 
-Supported operations:
+# Installation
+
+    make
+
+This is equivalent to:
+
+    go get
+    go build
+
+Then run:
+
+    ./restmq
+
+# Supported operations
 
 ## /q/\<queue\>
 
